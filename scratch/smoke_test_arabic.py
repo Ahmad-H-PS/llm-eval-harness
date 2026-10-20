@@ -7,6 +7,9 @@ import torch
 from datasets import load_dataset
 from sklearn.metrics import f1_score
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from pathlib import Path
+
+OUT_DIR = Path(__file__).parent  # the folder this script lives in (scratch/)
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -71,7 +74,7 @@ for ex in ds:
 elapsed = time.time() - start
 
 # --- save (view in VS Code; the terminal won't render Arabic RTL correctly) ---
-fname = f"ajgt_test_{HF_ID.split('/')[-1]}.jsonl"
+fname = OUT_DIR / f"ajgt_test_{HF_ID.split('/')[-1]}.jsonl"
 with open(fname, "w", encoding="utf-8") as f:
     for r in rows:
         f.write(json.dumps(r, ensure_ascii=False) + "\n")

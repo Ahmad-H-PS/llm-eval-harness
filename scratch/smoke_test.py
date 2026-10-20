@@ -7,6 +7,9 @@ import torch
 from datasets import load_dataset
 from sklearn.metrics import f1_score
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from pathlib import Path
+
+OUT_DIR = Path(__file__).parent  # the folder this script lives in (scratch/)
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -70,7 +73,7 @@ for hf_id in MODELS:
             rows.append({"text": ex["sentence"], "gold": ex["label"], "raw": raw, "pred": parse_label(raw)})
         elapsed = time.time() - start
 
-        fname = f"sst2_test_{hf_id.split('/')[-1]}.jsonl"
+        fname = OUT_DIR / f"sst2_test_{hf_id.split('/')[-1]}.jsonl"
         with open(fname, "w", encoding="utf-8") as f:
             for r in rows:
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
