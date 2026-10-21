@@ -1,6 +1,7 @@
 import json
+import sys
 
-p = "notebooks/01_prototype.ipynb"
+p = sys.argv[1] if len(sys.argv) > 1 else "notebooks/01_prototype.ipynb"
 with open(p, encoding="utf-8") as f:
     nb = json.load(f)
 
