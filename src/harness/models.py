@@ -1,6 +1,7 @@
 """Model loading, inference and output parsing."""
 from __future__ import annotations
 
+import gc
 import re
 import time
 from typing import Callable, Optional
@@ -43,9 +44,9 @@ def load_model(hf_id: str, device: str | None = None):
     return tok, model
 
 
-def unload_model(model) -> None:
-    """Free GPU memory so the next model fits on a 4 GB card."""
-    del model
+def free_gpu() -> None:
+    """Call after `del model, tok` in the caller so the next model fits in 4 GB."""
+    gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
 
