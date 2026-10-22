@@ -5,18 +5,20 @@ import argparse
 from pathlib import Path
 
 from .config import load_config
-from .runner import run_all
 from .plots import plot_results
+from .runner import run_all
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run the LLM evaluation harness.")
     parser.add_argument("--config", default="configs/default.yaml", help="path to YAML config")
     parser.add_argument("--out", default="results/results.csv", help="where to write the results CSV")
+    parser.add_argument("--chart", default="results/results_chart.png", help="where to write the chart")
+    parser.add_argument("--pred-dir", default="results/predictions", help="where to save raw predictions")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
-    df = run_all(cfg)
+    df = run_all(cfg, pred_dir=args.pred_dir)
 
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)

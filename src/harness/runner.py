@@ -7,9 +7,10 @@ import torch
 from .data import load_sample
 from .metrics import score_predictions
 from .models import free_gpu, load_model, run_classification
+from .predictions import save_predictions
 
 
-def run_all(cfg: dict) -> pd.DataFrame:
+def run_all(cfg: dict, pred_dir: str = "results/predictions") -> pd.DataFrame:
     """Loop models x tasks from the config. Returns one row per (model, task)."""
     # Load all samples first so a bad dataset id fails before any model loads.
     samples = {
@@ -34,6 +35,7 @@ def run_all(cfg: dict) -> pd.DataFrame:
                     detokenize=task["detokenize"],
                     max_new_tokens=task["max_new_tokens"],
                 )
+                save_predictions(pred_dir, m, task, rows, stats)
                 results.append({
                     "model": m["name"],
                     "hf_id": m["hf_id"],

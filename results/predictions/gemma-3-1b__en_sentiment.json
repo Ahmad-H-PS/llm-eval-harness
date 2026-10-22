@@ -1,0 +1,1612 @@
+{
+ "model": "gemma-3-1b",
+ "hf_id": "google/gemma-3-1b-it",
+ "task": "en_sentiment",
+ "language": "en",
+ "stats": {
+  "latency_s_per_ex": 0.2,
+  "peak_vram_gb": 2.07
+ },
+ "rows": [
+  {
+   "id": 0,
+   "text": "it gets onto the screen just about as much of the novella as one could reasonably expect, and is engrossing and moving in its own right.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it gets onto the screen just about as much of the novella as one could reasonably expect, and is engrossing and moving in its own right.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 1,
+   "text": "my big fat greek wedding uses stereotypes in a delightful blend of sweet romance and lovingly dished out humor.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: my big fat greek wedding uses stereotypes in a delightful blend of sweet romance and lovingly dished out humor.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 2,
+   "text": "for the most part, director anne-sophie birot's first feature is a sensitive, extraordinarily well-acted drama.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: for the most part, director anne-sophie birot's first feature is a sensitive, extraordinarily well-acted drama.\n\nAnswer:",
+   "gold": 1,
+   "raw": "positive",
+   "pred": 1
+  },
+  {
+   "id": 3,
+   "text": "cq's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: cq's reflection of artists and the love of cinema-and-self suggests nothing less than a new voice that deserves to be considered as a possible successor to the best european directors.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 4,
+   "text": "charles ' entertaining film chronicles seinfeld's return to stand-up comedy after the wrap of his legendary sitcom, alongside wannabe comic adams ' attempts to get his shot at the big time.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: charles ' entertaining film chronicles seinfeld's return to stand-up comedy after the wrap of his legendary sitcom, alongside wannabe comic adams ' attempts to get his shot at the big time.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 5,
+   "text": "and that leaves a hole in the center of the salton sea.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: and that leaves a hole in the center of the salton sea.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 6,
+   "text": "the film tunes into a grief that could lead a man across centuries.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the film tunes into a grief that could lead a man across centuries.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 7,
+   "text": "or doing last year's taxes with your ex-wife.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: or doing last year's taxes with your ex-wife.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 8,
+   "text": "the weight of the piece, the unerring professionalism of the chilly production, and the fascination embedded in the lurid topic prove recommendation enough.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the weight of the piece, the unerring professionalism of the chilly production, and the fascination embedded in the lurid topic prove recommendation enough.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 9,
+   "text": "too much of it feels unfocused and underdeveloped.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: too much of it feels unfocused and underdeveloped.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 10,
+   "text": "the affectionate loopiness that once seemed congenital to demme's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled hollywood post-production effects.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the affectionate loopiness that once seemed congenital to demme's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled hollywood post-production effects.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 11,
+   "text": "you'll gasp appalled and laugh outraged and possibly, watching the spectacle of a promising young lad treading desperately in a nasty sea, shed an errant tear.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: you'll gasp appalled and laugh outraged and possibly, watching the spectacle of a promising young lad treading desperately in a nasty sea, shed an errant tear.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 12,
+   "text": "a movie with a real anarchic flair.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a movie with a real anarchic flair.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 13,
+   "text": "fresnadillo's dark and jolting images have a way of plying into your subconscious like the nightmare you had a week ago that won't go away.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: fresnadillo's dark and jolting images have a way of plying into your subconscious like the nightmare you had a week ago that won't go away.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 14,
+   "text": "aside from minor tinkering, this is the same movie you probably loved in 1994, except that it looks even better.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: aside from minor tinkering, this is the same movie you probably loved in 1994, except that it looks even better.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 15,
+   "text": "an unclassifiably awful study in self - and audience-abuse.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: an unclassifiably awful study in self - and audience-abuse.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 16,
+   "text": "a beguiling splash of pastel colors and prankish comedy from disney.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a beguiling splash of pastel colors and prankish comedy from disney.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 17,
+   "text": "sam mendes has become valedictorian at the school for soft landings and easy ways out.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: sam mendes has become valedictorian at the school for soft landings and easy ways out.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 18,
+   "text": "true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 19,
+   "text": "his comedy premises are often hackneyed or just plain crude, calculated to provoke shocked laughter, without following up on a deeper level.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: his comedy premises are often hackneyed or just plain crude, calculated to provoke shocked laughter, without following up on a deeper level.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 20,
+   "text": "it treats women like idiots.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it treats women like idiots.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 21,
+   "text": "the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the quality of the art combined with the humor and intelligence of the script allow the filmmakers to present the biblical message of forgiveness without it ever becoming preachy or syrupy.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 22,
+   "text": "nicks, seemingly uncertain what's going to make people laugh, runs the gamut from stale parody to raunchy sex gags to formula romantic comedy.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: nicks, seemingly uncertain what's going to make people laugh, runs the gamut from stale parody to raunchy sex gags to formula romantic comedy.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 23,
+   "text": "the last 20 minutes are somewhat redeeming, but most of the movie is the same teenage american road-trip drek we've seen before - only this time you have to read the fart jokes",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the last 20 minutes are somewhat redeeming, but most of the movie is the same teenage american road-trip drek we've seen before - only this time you have to read the fart jokes\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 24,
+   "text": "it's too bad that the helping hand he uses to stir his ingredients is also a heavy one.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's too bad that the helping hand he uses to stir his ingredients is also a heavy one.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 25,
+   "text": "the most hopelessly monotonous film of the year, noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the most hopelessly monotonous film of the year, noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 26,
+   "text": "in the end, we are left with something like two ships passing in the night rather than any insights into gay love, chinese society or the price one pays for being dishonest.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: in the end, we are left with something like two ships passing in the night rather than any insights into gay love, chinese society or the price one pays for being dishonest.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 27,
+   "text": "not far beneath the surface, this reconfigured tale asks disturbing questions about those things we expect from military epics.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: not far beneath the surface, this reconfigured tale asks disturbing questions about those things we expect from military epics.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 28,
+   "text": "samira makhmalbaf's new film blackboards is much like the ethos of a stream of consciousness, although, it's unfortunate for the viewer that the thoughts and reflections coming through are torpid and banal",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: samira makhmalbaf's new film blackboards is much like the ethos of a stream of consciousness, although, it's unfortunate for the viewer that the thoughts and reflections coming through are torpid and banal\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 29,
+   "text": "no screen fantasy-adventure in recent memory has the showmanship of clones ' last 45 minutes.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: no screen fantasy-adventure in recent memory has the showmanship of clones ' last 45 minutes.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 30,
+   "text": "more romantic, more emotional and ultimately more satisfying than the teary-eyed original.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: more romantic, more emotional and ultimately more satisfying than the teary-eyed original.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 31,
+   "text": "a solid examination of the male midlife crisis.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a solid examination of the male midlife crisis.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 32,
+   "text": "filmmakers who can deftly change moods are treasures and even marvels.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: filmmakers who can deftly change moods are treasures and even marvels.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 33,
+   "text": "part low rent godfather.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: part low rent godfather.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 34,
+   "text": "nothing's at stake, just a twisty double-cross you can smell a mile away -- still, the derivative nine queens is lots of fun.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: nothing's at stake, just a twisty double-cross you can smell a mile away -- still, the derivative nine queens is lots of fun.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 35,
+   "text": "i'll bet the video game is a lot more fun than the film.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: i'll bet the video game is a lot more fun than the film.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 36,
+   "text": "bennett's naturalistic performance speaks volumes more truth than any ` reality ' show, and anybody contemplating their own drastic life changes should watch some body first.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: bennett's naturalistic performance speaks volumes more truth than any ` reality ' show, and anybody contemplating their own drastic life changes should watch some body first.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 37,
+   "text": "a cartoon that's truly cinematic in scope, and a story that's compelling and heartfelt -- even if the heart belongs to a big, four-legged herbivore.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a cartoon that's truly cinematic in scope, and a story that's compelling and heartfelt -- even if the heart belongs to a big, four-legged herbivore.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 38,
+   "text": "late marriage's stiffness is unlikely to demonstrate the emotional clout to sweep u.s. viewers off their feet.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: late marriage's stiffness is unlikely to demonstrate the emotional clout to sweep u.s. viewers off their feet.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 39,
+   "text": "may be far from the best of the series, but it's assured, wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: may be far from the best of the series, but it's assured, wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 40,
+   "text": "though it's become almost redundant to say so, major kudos go to leigh for actually casting people who look working-class.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: though it's become almost redundant to say so, major kudos go to leigh for actually casting people who look working-class.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 41,
+   "text": "chabrol has taken promising material for a black comedy and turned it instead into a somber chamber drama.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: chabrol has taken promising material for a black comedy and turned it instead into a somber chamber drama.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 42,
+   "text": "the longer the movie goes, the worse it gets, but it's actually pretty good in the first few minutes.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the longer the movie goes, the worse it gets, but it's actually pretty good in the first few minutes.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Neutral",
+   "pred": null
+  },
+  {
+   "id": 43,
+   "text": "morton uses her face and her body language to bring us morvern's soul, even though the character is almost completely deadpan.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: morton uses her face and her body language to bring us morvern's soul, even though the character is almost completely deadpan.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 44,
+   "text": "( næs ) directed the stage version of elling, and gets fine performances from his two leads who originated the characters on stage.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: ( næs ) directed the stage version of elling, and gets fine performances from his two leads who originated the characters on stage.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 45,
+   "text": "a subject like this should inspire reaction in its audience; the pianist does not.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a subject like this should inspire reaction in its audience; the pianist does not.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 46,
+   "text": "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 47,
+   "text": "a densely constructed, highly referential film, and an audacious return to form that can comfortably sit among jean-luc godard's finest work.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a densely constructed, highly referential film, and an audacious return to form that can comfortably sit among jean-luc godard's finest work.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 48,
+   "text": "( director ) o'fallon manages to put some lovely pictures up on the big screen, but his skill at telling a story -- he also contributed to the screenplay -- falls short.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: ( director ) o'fallon manages to put some lovely pictures up on the big screen, but his skill at telling a story -- he also contributed to the screenplay -- falls short.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 49,
+   "text": "what the film lacks in general focus it makes up for in compassion, as corcuera manages to find the seeds of hope in the form of collective action.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: what the film lacks in general focus it makes up for in compassion, as corcuera manages to find the seeds of hope in the form of collective action.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 50,
+   "text": "with rabbit-proof fence, noyce has tailored an epic tale into a lean, economical movie.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: with rabbit-proof fence, noyce has tailored an epic tale into a lean, economical movie.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 51,
+   "text": "a tender, heartfelt family drama.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a tender, heartfelt family drama.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 52,
+   "text": "the film is quiet, threatening and unforgettable.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the film is quiet, threatening and unforgettable.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 53,
+   "text": "as surreal as a dream and as detailed as a photograph, as visually dexterous as it is at times imaginatively overwhelming.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: as surreal as a dream and as detailed as a photograph, as visually dexterous as it is at times imaginatively overwhelming.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 54,
+   "text": "this is an egotistical endeavor from the daughter of horror director dario argento ( a producer here ), but her raw performance and utter fearlessness make it strangely magnetic.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: this is an egotistical endeavor from the daughter of horror director dario argento ( a producer here ), but her raw performance and utter fearlessness make it strangely magnetic.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 55,
+   "text": "while the ideas about techno-saturation are far from novel, they're presented with a wry dark humor.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: while the ideas about techno-saturation are far from novel, they're presented with a wry dark humor.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 56,
+   "text": "schaeffer has to find some hook on which to hang his persistently useless movies, and it might as well be the resuscitation of the middle-aged character.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: schaeffer has to find some hook on which to hang his persistently useless movies, and it might as well be the resuscitation of the middle-aged character.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 57,
+   "text": "seldahl's barbara is a precise and moving portrait of someone whose world is turned upside down, first by passion and then by illness.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: seldahl's barbara is a precise and moving portrait of someone whose world is turned upside down, first by passion and then by illness.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 58,
+   "text": "not since japanese filmmaker akira kurosawa's ran have the savagery of combat and the specter of death been visualized with such operatic grandeur.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: not since japanese filmmaker akira kurosawa's ran have the savagery of combat and the specter of death been visualized with such operatic grandeur.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 59,
+   "text": "if you're hard up for raunchy college humor, this is your ticket right here.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: if you're hard up for raunchy college humor, this is your ticket right here.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 60,
+   "text": "pumpkin means to be an outrageous dark satire on fraternity life, but its ambitions far exceed the abilities of writer adam larson broder and his co-director, tony r. abrams, in their feature debut.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: pumpkin means to be an outrageous dark satire on fraternity life, but its ambitions far exceed the abilities of writer adam larson broder and his co-director, tony r. abrams, in their feature debut.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 61,
+   "text": "mcconaughey's fun to watch, the dragons are okay, not much fire in the script.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: mcconaughey's fun to watch, the dragons are okay, not much fire in the script.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 62,
+   "text": "maud and roland's search for an unknowable past makes for a haunting literary detective story, but labute pulls off a neater trick in possession: he makes language sexy.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: maud and roland's search for an unknowable past makes for a haunting literary detective story, but labute pulls off a neater trick in possession: he makes language sexy.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 63,
+   "text": "dull, lifeless, and amateurishly assembled.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: dull, lifeless, and amateurishly assembled.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 64,
+   "text": "complete lack of originality, cleverness or even visible effort",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: complete lack of originality, cleverness or even visible effort\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 65,
+   "text": "while locals will get a kick out of spotting cleveland sites, the rest of the world will enjoy a fast-paced comedy with quirks that might make the award-winning coen brothers envious.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: while locals will get a kick out of spotting cleveland sites, the rest of the world will enjoy a fast-paced comedy with quirks that might make the award-winning coen brothers envious.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Neutral",
+   "pred": null
+  },
+  {
+   "id": 66,
+   "text": "at its worst, it implodes in a series of very bad special effects.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: at its worst, it implodes in a series of very bad special effects.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 67,
+   "text": "a difficult, absorbing film that manages to convey more substance despite its repetitions and inconsistencies than do most films than are far more pointed and clear.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a difficult, absorbing film that manages to convey more substance despite its repetitions and inconsistencies than do most films than are far more pointed and clear.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 68,
+   "text": "almost gags on its own gore.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: almost gags on its own gore.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 69,
+   "text": "the iditarod lasts for days - this just felt like it did.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the iditarod lasts for days - this just felt like it did.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 70,
+   "text": "one of the smartest takes on singles culture i've seen in a long time.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: one of the smartest takes on singles culture i've seen in a long time.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 71,
+   "text": "offers very little genuine romance and even fewer laughs... a sad sitcom of a movie, largely devoid of charm.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: offers very little genuine romance and even fewer laughs... a sad sitcom of a movie, largely devoid of charm.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 72,
+   "text": "k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 73,
+   "text": "allows us to hope that nolan is poised to embark a major career as a commercial yet inventive filmmaker.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: allows us to hope that nolan is poised to embark a major career as a commercial yet inventive filmmaker.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 74,
+   "text": "vera's three actors -- mollà, gil and bardem -- excel in insightful, empathetic performances.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: vera's three actors -- mollà, gil and bardem -- excel in insightful, empathetic performances.\n\nAnswer:",
+   "gold": 1,
+   "raw": "positive",
+   "pred": 1
+  },
+  {
+   "id": 75,
+   "text": "there's really only one good idea in this movie, but the director runs with it and presents it with an unforgettable visual panache.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: there's really only one good idea in this movie, but the director runs with it and presents it with an unforgettable visual panache.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 76,
+   "text": "you really have to wonder how on earth anyone, anywhere could have thought they'd make audiences guffaw with a script as utterly diabolical as this.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: you really have to wonder how on earth anyone, anywhere could have thought they'd make audiences guffaw with a script as utterly diabolical as this.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 77,
+   "text": "a solid film... but more conscientious than it is truly stirring.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a solid film... but more conscientious than it is truly stirring.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 78,
+   "text": "will amuse and provoke adventurous adults in specialty venues.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: will amuse and provoke adventurous adults in specialty venues.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 79,
+   "text": "brilliantly explores the conflict between following one's heart and following the demands of tradition.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: brilliantly explores the conflict between following one's heart and following the demands of tradition.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 80,
+   "text": "at the very least, if you don't know anything about derrida when you walk into the theater, you won't know much more when you leave.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: at the very least, if you don't know anything about derrida when you walk into the theater, you won't know much more when you leave.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 81,
+   "text": "for this reason and this reason only -- the power of its own steadfast, hoity-toity convictions -- chelsea walls deserves a medal.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: for this reason and this reason only -- the power of its own steadfast, hoity-toity convictions -- chelsea walls deserves a medal.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 82,
+   "text": "the problem with this film is that it lacks focus.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the problem with this film is that it lacks focus.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 83,
+   "text": "unfortunately, it's not silly fun unless you enjoy really bad movies.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: unfortunately, it's not silly fun unless you enjoy really bad movies.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 84,
+   "text": "the film flat lines when it should peak and is more missed opportunity and trifle than dark, decadent truffle.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the film flat lines when it should peak and is more missed opportunity and trifle than dark, decadent truffle.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 85,
+   "text": "if you've ever entertained the notion of doing what the title of this film implies, what sex with strangers actually shows may put you off the idea forever.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: if you've ever entertained the notion of doing what the title of this film implies, what sex with strangers actually shows may put you off the idea forever.\n\nAnswer:",
+   "gold": 0,
+   "raw": "negative\n",
+   "pred": 0
+  },
+  {
+   "id": 86,
+   "text": "a sometimes tedious film.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a sometimes tedious film.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 87,
+   "text": "it's a beautiful madness.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's a beautiful madness.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 88,
+   "text": "it moves quickly, adroitly, and without fuss; it doesn't give you time to reflect on the inanity -- and the cold war datedness -- of its premise.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it moves quickly, adroitly, and without fuss; it doesn't give you time to reflect on the inanity -- and the cold war datedness -- of its premise.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 89,
+   "text": "it takes a strange kind of laziness to waste the talents of robert forster, anne meara, eugene levy, and reginald veljohnson all in the same movie.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it takes a strange kind of laziness to waste the talents of robert forster, anne meara, eugene levy, and reginald veljohnson all in the same movie.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 90,
+   "text": "a good piece of work more often than not.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a good piece of work more often than not.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 91,
+   "text": "made with no discernible craft and monstrously sanctimonious in dealing with childhood loss.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: made with no discernible craft and monstrously sanctimonious in dealing with childhood loss.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 92,
+   "text": "the film's performances are thrilling.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the film's performances are thrilling.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 93,
+   "text": "rarely has leukemia looked so shimmering and benign.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: rarely has leukemia looked so shimmering and benign.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 94,
+   "text": "i had to look away - this was god awful.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: i had to look away - this was god awful.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 95,
+   "text": "/ but daphne, you're too buff / fred thinks he's tough / and velma - wow, you've lost weight!",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: / but daphne, you're too buff / fred thinks he's tough / and velma - wow, you've lost weight!\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 96,
+   "text": "a very long movie, dull in stretches, with entirely too much focus on meal preparation and igloo construction.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a very long movie, dull in stretches, with entirely too much focus on meal preparation and igloo construction.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 97,
+   "text": "montias... pumps a lot of energy into his nicely nuanced narrative and surrounds himself with a cast of quirky -- but not stereotyped -- street characters.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: montias... pumps a lot of energy into his nicely nuanced narrative and surrounds himself with a cast of quirky -- but not stereotyped -- street characters.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 98,
+   "text": "a big, gorgeous, sprawling swashbuckler that delivers its diversions in grand, uncomplicated fashion.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a big, gorgeous, sprawling swashbuckler that delivers its diversions in grand, uncomplicated fashion.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 99,
+   "text": "it's hard to imagine alan arkin being better than he is in this performance.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's hard to imagine alan arkin being better than he is in this performance.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 100,
+   "text": "leigh's film is full of memorable performances from top to bottom.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: leigh's film is full of memorable performances from top to bottom.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 101,
+   "text": "it's hard to like a film about a guy who is utterly unlikeable, and shiner, starring michael caine as an aging british boxing promoter desperate for a taste of fame and fortune, is certainly that.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's hard to like a film about a guy who is utterly unlikeable, and shiner, starring michael caine as an aging british boxing promoter desperate for a taste of fame and fortune, is certainly that.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 102,
+   "text": "hardly a masterpiece, but it introduces viewers to a good charitable enterprise and some interesting real people.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: hardly a masterpiece, but it introduces viewers to a good charitable enterprise and some interesting real people.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 103,
+   "text": "in the end, the movie collapses on its shaky foundation despite the best efforts of director joe carnahan.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: in the end, the movie collapses on its shaky foundation despite the best efforts of director joe carnahan.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 104,
+   "text": "villeneuve spends too much time wallowing in bibi's generic angst ( there are a lot of shots of her gazing out windows ).",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: villeneuve spends too much time wallowing in bibi's generic angst ( there are a lot of shots of her gazing out windows ).\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 105,
+   "text": "when leguizamo finally plugged an irritating character late in the movie.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: when leguizamo finally plugged an irritating character late in the movie.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 106,
+   "text": "it's difficult to imagine the process that produced such a script, but here's guessing that spray cheese and underarm noises played a crucial role.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's difficult to imagine the process that produced such a script, but here's guessing that spray cheese and underarm noises played a crucial role.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 107,
+   "text": "too slow, too long and too little happens.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: too slow, too long and too little happens.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 108,
+   "text": "is the time really ripe for a warmed-over james bond adventure, with a village idiot as the 007 clone?",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: is the time really ripe for a warmed-over james bond adventure, with a village idiot as the 007 clone?\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 109,
+   "text": "the structure the film takes may find matt damon and ben affleck once again looking for residuals as this officially completes a good will hunting trilogy that was never planned.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the structure the film takes may find matt damon and ben affleck once again looking for residuals as this officially completes a good will hunting trilogy that was never planned.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 110,
+   "text": "what was once original has been co-opted so frequently that it now seems pedestrian.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: what was once original has been co-opted so frequently that it now seems pedestrian.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 111,
+   "text": "the wild thornberrys movie is a jolly surprise.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the wild thornberrys movie is a jolly surprise.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 112,
+   "text": "all that's missing is the spontaneity, originality and delight.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: all that's missing is the spontaneity, originality and delight.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 113,
+   "text": "warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women, water, nature, and sexuality.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women, water, nature, and sexuality.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 114,
+   "text": "on the whole, the movie lacks wit, feeling and believability to compensate for its incessant coarseness and banality.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: on the whole, the movie lacks wit, feeling and believability to compensate for its incessant coarseness and banality.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 115,
+   "text": "an effectively creepy, fear-inducing ( not fear-reducing ) film from japanese director hideo nakata, who takes the superstitious curse on chain letters and actually applies it.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: an effectively creepy, fear-inducing ( not fear-reducing ) film from japanese director hideo nakata, who takes the superstitious curse on chain letters and actually applies it.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 116,
+   "text": "it's not that kung pow isn't funny some of the time -- it just isn't any funnier than bad martial arts movies are all by themselves, without all oedekerk's impish augmentation.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's not that kung pow isn't funny some of the time -- it just isn't any funnier than bad martial arts movies are all by themselves, without all oedekerk's impish augmentation.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 117,
+   "text": "in execution, this clever idea is far less funny than the original, killers from space.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: in execution, this clever idea is far less funny than the original, killers from space.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 118,
+   "text": "despite all evidence to the contrary, this clunker has somehow managed to pose as an actual feature movie, the kind that charges full admission and gets hyped on tv and purports to amuse small children and ostensible adults.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: despite all evidence to the contrary, this clunker has somehow managed to pose as an actual feature movie, the kind that charges full admission and gets hyped on tv and purports to amuse small children and ostensible adults.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 119,
+   "text": "in exactly 89 minutes, most of which passed as slowly as if i'd been sitting naked on an igloo, formula 51 sank from quirky to jerky to utter turkey.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: in exactly 89 minutes, most of which passed as slowly as if i'd been sitting naked on an igloo, formula 51 sank from quirky to jerky to utter turkey.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 120,
+   "text": "neither parker nor donovan is a typical romantic lead, but they bring a fresh, quirky charm to the formula.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: neither parker nor donovan is a typical romantic lead, but they bring a fresh, quirky charm to the formula.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 121,
+   "text": "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: ... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 122,
+   "text": "zhang... has done an amazing job of getting realistic performances from his mainly nonprofessional cast.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: zhang... has done an amazing job of getting realistic performances from his mainly nonprofessional cast.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 123,
+   "text": "this piece of channel 5 grade trash is, quite frankly, an insult to the intelligence of the true genre enthusiast.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: this piece of channel 5 grade trash is, quite frankly, an insult to the intelligence of the true genre enthusiast.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 124,
+   "text": "it's inoffensive, cheerful, built to inspire the young people, set to an unending soundtrack of beach party pop numbers and aside from its remarkable camerawork and awesome scenery, it's about as exciting as a sunburn.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's inoffensive, cheerful, built to inspire the young people, set to an unending soundtrack of beach party pop numbers and aside from its remarkable camerawork and awesome scenery, it's about as exciting as a sunburn.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 125,
+   "text": "but taken as a stylish and energetic one-shot, the queen of the damned can not be said to suck.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: but taken as a stylish and energetic one-shot, the queen of the damned can not be said to suck.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 126,
+   "text": "a full world has been presented onscreen, not some series of carefully structured plot points building to a pat resolution.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a full world has been presented onscreen, not some series of carefully structured plot points building to a pat resolution.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 127,
+   "text": "you will emerge with a clearer view of how the gears of justice grind on and the death report comes to share airtime alongside the farm report.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: you will emerge with a clearer view of how the gears of justice grind on and the death report comes to share airtime alongside the farm report.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 128,
+   "text": "something akin to a japanese alice through the looking glass, except that it seems to take itself far more seriously.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: something akin to a japanese alice through the looking glass, except that it seems to take itself far more seriously.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 129,
+   "text": "... a magnificent drama well worth tracking down.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: ... a magnificent drama well worth tracking down.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 130,
+   "text": "add yet another hat to a talented head, clooney's a good director.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: add yet another hat to a talented head, clooney's a good director.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 131,
+   "text": "what the director can't do is make either of val kilmer's two personas interesting or worth caring about.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: what the director can't do is make either of val kilmer's two personas interesting or worth caring about.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 132,
+   "text": "two hours fly by -- opera's a pleasure when you don't have to endure intermissions -- and even a novice to the form comes away exhilarated.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: two hours fly by -- opera's a pleasure when you don't have to endure intermissions -- and even a novice to the form comes away exhilarated.\n\nAnswer:",
+   "gold": 1,
+   "raw": "positive",
+   "pred": 1
+  },
+  {
+   "id": 133,
+   "text": "a spellbinding african film about the modern condition of rootlessness, a state experienced by millions around the globe.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a spellbinding african film about the modern condition of rootlessness, a state experienced by millions around the globe.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 134,
+   "text": "i don't think i laughed out loud once.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: i don't think i laughed out loud once.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 135,
+   "text": "if you believe any of this, i can make you a real deal on leftover enron stock that will double in value a week from friday.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: if you believe any of this, i can make you a real deal on leftover enron stock that will double in value a week from friday.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 136,
+   "text": "thanks to scott's charismatic roger and eisenberg's sweet nephew, roger dodger is one of the most compelling variations on in the company of men.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: thanks to scott's charismatic roger and eisenberg's sweet nephew, roger dodger is one of the most compelling variations on in the company of men.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 137,
+   "text": "or emptying rat traps.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: or emptying rat traps.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 138,
+   "text": "dazzles with its fully-written characters, its determined stylishness ( which always relates to characters and story ) and johnny dankworth's best soundtrack in years.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: dazzles with its fully-written characters, its determined stylishness ( which always relates to characters and story ) and johnny dankworth's best soundtrack in years.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 139,
+   "text": "it's a stunning lyrical work of considerable force and truth.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's a stunning lyrical work of considerable force and truth.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 140,
+   "text": "comes... uncomfortably close to coasting in the treads of the bicycle thief.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: comes... uncomfortably close to coasting in the treads of the bicycle thief.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 141,
+   "text": "as ` chick flicks ' go, this one is pretty miserable, resorting to string-pulling rather than legitimate character development and intelligent plotting.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: as ` chick flicks ' go, this one is pretty miserable, resorting to string-pulling rather than legitimate character development and intelligent plotting.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 142,
+   "text": "however it may please those who love movies that blare with pop songs, young science fiction fans will stomp away in disgust.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: however it may please those who love movies that blare with pop songs, young science fiction fans will stomp away in disgust.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 143,
+   "text": "offers much to enjoy... and a lot to mull over in terms of love, loyalty and the nature of staying friends.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: offers much to enjoy... and a lot to mull over in terms of love, loyalty and the nature of staying friends.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 144,
+   "text": "a sequence of ridiculous shoot - 'em - up scenes.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a sequence of ridiculous shoot - 'em - up scenes.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 145,
+   "text": "bogdanovich tantalizes by offering a peep show into the lives of the era's creme de la celluloid.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: bogdanovich tantalizes by offering a peep show into the lives of the era's creme de la celluloid.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 146,
+   "text": "miller is playing so free with emotions, and the fact that children are hostages to fortune, that he makes the audience hostage to his swaggering affectation of seriousness.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: miller is playing so free with emotions, and the fact that children are hostages to fortune, that he makes the audience hostage to his swaggering affectation of seriousness.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 147,
+   "text": "it offers little beyond the momentary joys of pretty and weightless intellectual entertainment.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it offers little beyond the momentary joys of pretty and weightless intellectual entertainment.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 148,
+   "text": "an artful, intelligent film that stays within the confines of a well-established genre.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: an artful, intelligent film that stays within the confines of a well-established genre.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 149,
+   "text": "corpus collosum -- while undeniably interesting -- wore out its welcome well before the end credits rolled about 45 minutes in.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: corpus collosum -- while undeniably interesting -- wore out its welcome well before the end credits rolled about 45 minutes in.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 150,
+   "text": "stultifyingly, dumbfoundingly, mind-numbingly bad.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: stultifyingly, dumbfoundingly, mind-numbingly bad.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 151,
+   "text": "one of those energetic surprises, an original that pleases almost everyone who sees it.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: one of those energetic surprises, an original that pleases almost everyone who sees it.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 152,
+   "text": "it's a work by an artist so in control of both his medium and his message that he can improvise like a jazzman.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's a work by an artist so in control of both his medium and his message that he can improvise like a jazzman.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 153,
+   "text": "burns never really harnesses to full effect the energetic cast.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: burns never really harnesses to full effect the energetic cast.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 154,
+   "text": "building slowly and subtly, the film, sporting a breezy spontaneity and realistically drawn characterizations, develops into a significant character study that is both moving and wise.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: building slowly and subtly, the film, sporting a breezy spontaneity and realistically drawn characterizations, develops into a significant character study that is both moving and wise.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 155,
+   "text": "macdowell, whose wifty southern charm has anchored lighter affairs... brings an absolutely riveting conviction to her role.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: macdowell, whose wifty southern charm has anchored lighter affairs... brings an absolutely riveting conviction to her role.\n\nAnswer:",
+   "gold": 1,
+   "raw": "positive",
+   "pred": 1
+  },
+  {
+   "id": 156,
+   "text": "` easily my choice for one of the year's best films. '",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: ` easily my choice for one of the year's best films. '\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 157,
+   "text": "there has always been something likable about the marquis de sade.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: there has always been something likable about the marquis de sade.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 158,
+   "text": "manages to transcend the sex, drugs and show-tunes plot into something far richer.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: manages to transcend the sex, drugs and show-tunes plot into something far richer.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 159,
+   "text": "it's a cookie-cutter movie, a cut-and-paste job.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's a cookie-cutter movie, a cut-and-paste job.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 160,
+   "text": "one of the more irritating cartoons you will see this, or any, year.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: one of the more irritating cartoons you will see this, or any, year.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 161,
+   "text": "if the first men in black was money, the second is small change.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: if the first men in black was money, the second is small change.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 162,
+   "text": "a valueless kiddie paean to pro basketball underwritten by the nba.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a valueless kiddie paean to pro basketball underwritten by the nba.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 163,
+   "text": "the chateau cleverly probes the cross-cultural differences between gauls and yanks.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the chateau cleverly probes the cross-cultural differences between gauls and yanks.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Neutral",
+   "pred": null
+  },
+  {
+   "id": 164,
+   "text": "fancy a real downer?",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: fancy a real downer?\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 165,
+   "text": "it's a grab bag of genres that don't add up to a whole lot of sense.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's a grab bag of genres that don't add up to a whole lot of sense.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 166,
+   "text": "it's another stale, kill-by-numbers flick, complete with blade-thin characters and terrible, pun-laden dialogue.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's another stale, kill-by-numbers flick, complete with blade-thin characters and terrible, pun-laden dialogue.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 167,
+   "text": "ramsay, as in ratcatcher, remains a filmmaker with an acid viewpoint and a real gift for teasing chilly poetry out of lives and settings that might otherwise seem drab and sordid.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: ramsay, as in ratcatcher, remains a filmmaker with an acid viewpoint and a real gift for teasing chilly poetry out of lives and settings that might otherwise seem drab and sordid.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 168,
+   "text": "... is an arthritic attempt at directing by callie khouri.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: ... is an arthritic attempt at directing by callie khouri.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 169,
+   "text": "do not see this film.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: do not see this film.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 170,
+   "text": "no aspirations to social import inform the movie version.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: no aspirations to social import inform the movie version.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 171,
+   "text": "a swashbuckling tale of love, betrayal, revenge and above all, faith.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a swashbuckling tale of love, betrayal, revenge and above all, faith.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 172,
+   "text": "chokes on its own depiction of upper-crust decorum.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: chokes on its own depiction of upper-crust decorum.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 173,
+   "text": "his last movie was poetically romantic and full of indelible images, but his latest has nothing going for it.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: his last movie was poetically romantic and full of indelible images, but his latest has nothing going for it.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 174,
+   "text": "about a manga-like heroine who fights back at her abusers, it's energetic and satisfying if not deep and psychological.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: about a manga-like heroine who fights back at her abusers, it's energetic and satisfying if not deep and psychological.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 175,
+   "text": "exquisitely nuanced in mood tics and dialogue, this chamber drama is superbly acted by the deeply appealing veteran bouquet and the chilling but quite human berling.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: exquisitely nuanced in mood tics and dialogue, this chamber drama is superbly acted by the deeply appealing veteran bouquet and the chilling but quite human berling.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 176,
+   "text": "majidi is an unconventional storyteller, capable of finding beauty in the most depressing places.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: majidi is an unconventional storyteller, capable of finding beauty in the most depressing places.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 177,
+   "text": "the son's room is a triumph of gentility that earns its moments of pathos.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the son's room is a triumph of gentility that earns its moments of pathos.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 178,
+   "text": "it's a buggy drag.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's a buggy drag.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 179,
+   "text": "it's a demented kitsch mess ( although the smeary digital video does match the muddled narrative ), but it's savvy about celebrity and has more guts and energy than much of what will open this year.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's a demented kitsch mess ( although the smeary digital video does match the muddled narrative ), but it's savvy about celebrity and has more guts and energy than much of what will open this year.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 180,
+   "text": "looks and feels like a project better suited for the small screen.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: looks and feels like a project better suited for the small screen.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 181,
+   "text": "it's a charming and often affecting journey.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's a charming and often affecting journey.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 182,
+   "text": "the terrific and bewilderingly underrated campbell scott gives a star performance that is nothing short of mesmerizing.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: the terrific and bewilderingly underrated campbell scott gives a star performance that is nothing short of mesmerizing.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 183,
+   "text": "you won't like roger, but you will quickly recognize him.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: you won't like roger, but you will quickly recognize him.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Neutral",
+   "pred": null
+  },
+  {
+   "id": 184,
+   "text": "it's everything you don't go to the movies for.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: it's everything you don't go to the movies for.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 185,
+   "text": "a tender, witty, captivating film about friendship, love, memory, trust and loyalty.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a tender, witty, captivating film about friendship, love, memory, trust and loyalty.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 186,
+   "text": "another in-your-face wallow in the lower depths made by people who have never sung those blues.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: another in-your-face wallow in the lower depths made by people who have never sung those blues.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 187,
+   "text": "yakusho and shimizu... create engaging characterizations in imamura's lively and enjoyable cultural mix.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: yakusho and shimizu... create engaging characterizations in imamura's lively and enjoyable cultural mix.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 188,
+   "text": "far more imaginative and ambitious than the trivial, cash-in features nickelodeon has made from its other animated tv series.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: far more imaginative and ambitious than the trivial, cash-in features nickelodeon has made from its other animated tv series.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 189,
+   "text": "an infectious cultural fable with a tasty balance of family drama and frenetic comedy.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: an infectious cultural fable with a tasty balance of family drama and frenetic comedy.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 190,
+   "text": "not an objectionable or dull film; it merely lacks everything except good intentions.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: not an objectionable or dull film; it merely lacks everything except good intentions.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 191,
+   "text": "cool?",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: cool?\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 192,
+   "text": "jason x is positively anti-darwinian: nine sequels and 400 years later, the teens are none the wiser and jason still kills on auto-pilot.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: jason x is positively anti-darwinian: nine sequels and 400 years later, the teens are none the wiser and jason still kills on auto-pilot.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 193,
+   "text": "one of the more intelligent children's movies to hit theaters this year.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: one of the more intelligent children's movies to hit theaters this year.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 194,
+   "text": "travels a fascinating arc from hope and euphoria to reality and disillusionment.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: travels a fascinating arc from hope and euphoria to reality and disillusionment.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 195,
+   "text": "expect the same-old, lame-old slasher nonsense, just with different scenery.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: expect the same-old, lame-old slasher nonsense, just with different scenery.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 196,
+   "text": "there's something auspicious, and daring, too, about the artistic instinct that pushes a majority-oriented director like steven spielberg to follow a.i. with this challenging report so liable to unnerve the majority.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: there's something auspicious, and daring, too, about the artistic instinct that pushes a majority-oriented director like steven spielberg to follow a.i. with this challenging report so liable to unnerve the majority.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Negative",
+   "pred": 0
+  },
+  {
+   "id": 197,
+   "text": "without non-stop techno or the existential overtones of a kieslowski morality tale, maelström is just another winter sleepers.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: without non-stop techno or the existential overtones of a kieslowski morality tale, maelström is just another winter sleepers.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  },
+  {
+   "id": 198,
+   "text": "a must-see for the david mamet enthusiast and for anyone who appreciates intelligent, stylish moviemaking.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: a must-see for the david mamet enthusiast and for anyone who appreciates intelligent, stylish moviemaking.\n\nAnswer:",
+   "gold": 1,
+   "raw": "Positive",
+   "pred": 1
+  },
+  {
+   "id": 199,
+   "text": "though moonlight mile is replete with acclaimed actors and actresses and tackles a subject that's potentially moving, the movie is too predictable and too self-conscious to reach a level of high drama.",
+   "prompt": "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: though moonlight mile is replete with acclaimed actors and actresses and tackles a subject that's potentially moving, the movie is too predictable and too self-conscious to reach a level of high drama.\n\nAnswer:",
+   "gold": 0,
+   "raw": "Negative\n",
+   "pred": 0
+  }
+ ]
+}
