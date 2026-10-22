@@ -6,6 +6,7 @@ from pathlib import Path
 
 from .config import load_config
 from .runner import run_all
+from .plots import plot_results
 
 
 def main() -> None:
@@ -20,9 +21,10 @@ def main() -> None:
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(out, index=False)
+    plot_results(df, args.chart)
 
     print("\n" + df.to_string(index=False))
-    print(f"\nSaved {len(df)} rows to {out}")
+    print(f"\nSaved {len(df)} rows to {out} and chart to {args.chart}")
 
 
 if __name__ == "__main__":
