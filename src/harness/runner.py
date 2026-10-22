@@ -5,8 +5,8 @@ import pandas as pd
 import torch
 
 from .data import load_sample
-from .metrics import score_predictions
-from .models import free_gpu, load_model, run_classification
+from .metrics import score_task
+from .models import free_gpu, load_model, run_classification, run_qa
 from .predictions import save_predictions
 
 
@@ -29,19 +29,26 @@ def run_all(cfg: dict, pred_dir: str = "results/predictions") -> pd.DataFrame:
                     # resets the peak to the current allocation (the weights),
                     # so the number is per model + task, not cumulative
                     torch.cuda.reset_peak_memory_stats()
-                rows, stats = run_classification(
-                    tok, model, samples[task["name"]], task["prompt"],
-                    text_key=task["text_key"], label_key=task["label_key"],
-                    detokenize=task["detokenize"],
-                    max_new_tokens=task["max_new_tokens"],
-                )
+                if task["type"] == "qa":
+                    rows, stats = run_qa(
+                        tok, model, samples[task["name"]], task["prompt"],
+                        max_new_tokens=task["max_new_tokens"],
+                    )
+                else:
+                    rows, stats = run_classification(
+                        tok, model, samples[task["name"]], task["prompt"],
+                        text_key=task["text_key"], label_key=task["label_key"],
+                        detokenize=task["detokenize"],
+                        max_new_tokens=task["max_new_tokens"],
+                    )
                 save_predictions(pred_dir, m, task, rows, stats)
                 results.append({
                     "model": m["name"],
                     "hf_id": m["hf_id"],
                     "task": task["name"],
+                    "type": task["type"],
                     "language": task["language"],
-                    **score_predictions(rows),
+                    **score_task(task["type"], rows),
                     **stats,
                 })
         finally:

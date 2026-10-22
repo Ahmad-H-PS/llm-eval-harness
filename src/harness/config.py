@@ -9,11 +9,13 @@ _MODEL_KEYS = {"name", "hf_id"}
 _TASK_KEYS = {"name", "dataset", "split", "n_samples", "language", "prompt", "metric"}
 # Optional task settings; defaults match run_classification.
 _TASK_DEFAULTS = {
+    "type": "classification",
     "text_key": "text",
     "label_key": "label",
     "detokenize": False,
     "max_new_tokens": 16,
 }
+_PLACEHOLDERS = {"classification": ["text"], "qa": ["context", "question"]}
 
 
 def _check_entries(entries: list, required: set[str], kind: str) -> None:
@@ -39,8 +41,11 @@ def load_config(path: str | Path) -> dict:
     _check_entries(cfg.get("tasks", []), _TASK_KEYS, "task")
 
     for task in cfg["tasks"]:
-        if "{text}" not in task["prompt"]:
-            raise ValueError(f"task '{task['name']}': prompt must contain {{text}}")
         for key, default in _TASK_DEFAULTS.items():
             task.setdefault(key, default)
+        if task["type"] not in _PLACEHOLDERS:
+            raise ValueError(f"task '{task['name']}': unknown type '{task['type']}'")
+        for ph in _PLACEHOLDERS[task["type"]]:
+            if "{" + ph + "}" not in task["prompt"]:
+                raise ValueError(f"task '{task['name']}': prompt must contain {{{ph}}}")
     return cfg

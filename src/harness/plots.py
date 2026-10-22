@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-def plot_results(df: pd.DataFrame, out_path: str | Path, metric: str = "macro_f1") -> None:
+def plot_results(df: pd.DataFrame, out_path: str | Path, metric: str = "score") -> None:
     """Grouped bar chart: one group per task, one bar per model."""
     pivot = df.pivot(index="task", columns="model", values=metric)
     ax = pivot.plot.bar(figsize=(7, 4.5), rot=0, width=0.8)

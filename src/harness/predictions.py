@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from .metrics import score_predictions
+from .metrics import score_task
 
 
 def save_predictions(pred_dir: str | Path, model: dict, task: dict,
@@ -19,6 +19,7 @@ def save_predictions(pred_dir: str | Path, model: dict, task: dict,
         "model": model["name"],
         "hf_id": model["hf_id"],
         "task": task["name"],
+        "type": task["type"],
         "language": task["language"],
         "stats": stats,
         "rows": rows,
@@ -34,12 +35,14 @@ def rescore(pred_dir: str | Path) -> pd.DataFrame:
     for path in sorted(Path(pred_dir).glob("*.json")):
         with open(path, encoding="utf-8") as f:
             p = json.load(f)
+        task_type = p.get("type", "classification")  # older files have no type
         results.append({
             "model": p["model"],
             "hf_id": p["hf_id"],
             "task": p["task"],
+            "type": task_type,
             "language": p["language"],
-            **score_predictions(p["rows"]),
+            **score_task(task_type, p["rows"]),
             **p["stats"],
         })
     if not results:

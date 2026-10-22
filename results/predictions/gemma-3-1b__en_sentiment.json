@@ -2,9 +2,10 @@
  "model": "gemma-3-1b",
  "hf_id": "google/gemma-3-1b-it",
  "task": "en_sentiment",
+ "type": "classification",
  "language": "en",
  "stats": {
-  "latency_s_per_ex": 0.13,
+  "latency_s_per_ex": 0.12,
   "peak_vram_gb": 2.07
  },
  "rows": [

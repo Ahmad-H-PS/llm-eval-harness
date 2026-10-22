@@ -2,6 +2,7 @@
  "model": "qwen2.5-1.5b",
  "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
  "task": "en_sentiment",
+ "type": "classification",
  "language": "en",
  "stats": {
   "latency_s_per_ex": 0.08,

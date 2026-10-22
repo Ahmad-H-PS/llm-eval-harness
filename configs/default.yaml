@@ -19,3 +19,12 @@ tasks:
     max_new_tokens: 16
     prompt: "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: {text}\n\nAnswer:"
     metric: f1
+  - name: en_qa
+    type: qa
+    dataset: rajpurkar/squad
+    split: validation
+    n_samples: 200
+    language: en
+    max_new_tokens: 32
+    prompt: "Answer the question using only the context. Reply with just the answer text (a short span copied from the context). Do not add any explanation.\n\nContext: {context}\n\nQuestion: {question}\n\nAnswer:"
+    metric: f1
