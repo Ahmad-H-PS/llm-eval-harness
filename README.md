@@ -4,7 +4,7 @@
 
 A config-driven Python harness that benchmarks small open-source LLMs on English and Arabic tasks (sentiment, QA), reporting accuracy, F1, and confidence intervals alongside error analysis and reproducible results.
 
-> **Status:** work in progress (Phases 0-1 complete, Phase 2 nearly complete). Results, quick start and method sections will be added as the project is built.
+> **Status:** work in progress (Phases 0-2 complete, Phase 3 in progress). Results, quick start and method sections will be added as the project is built.
 
 ## Draft notes
 
