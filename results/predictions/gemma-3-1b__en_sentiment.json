@@ -4,7 +4,7 @@
  "task": "en_sentiment",
  "language": "en",
  "stats": {
-  "latency_s_per_ex": 0.2,
+  "latency_s_per_ex": 0.13,
   "peak_vram_gb": 2.07
  },
  "rows": [
