@@ -3,7 +3,7 @@ A config-driven Python harness that benchmarks small open-source LLMs on English
 
 > **Status:** work in progress (Phases 0-1 complete, Phase 2 in progress). Results, quick start and method sections will be added as the project is built.
 
-## Draft notes (Step 0.4)
+## Draft notes
 
 **Models:** Qwen2.5-1.5B-Instruct, Gemma-3-1B-it, Hala-700M (Arabic-focused)
 **Tasks:** SST-2 (validation, n=200), SQuAD v1.1 (validation, n=200), AJGT Jordanian-dialect Arabic sentiment (`komari6/ajgt_twitter_ar`, n=200)
