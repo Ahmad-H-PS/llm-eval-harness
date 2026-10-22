@@ -1,0 +1,21 @@
+seed: 42
+
+models:
+  - name: qwen2.5-1.5b
+    hf_id: Qwen/Qwen2.5-1.5B-Instruct
+  - name: gemma-3-1b
+    hf_id: google/gemma-3-1b-it
+  # Hala-700M joins at Step 3.3, together with the Arabic task.
+
+tasks:
+  - name: en_sentiment
+    dataset: stanfordnlp/sst2
+    split: validation
+    n_samples: 200
+    language: en
+    text_key: sentence
+    label_key: label
+    detokenize: true
+    max_new_tokens: 16
+    prompt: "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: {text}\n\nAnswer:"
+    metric: f1
