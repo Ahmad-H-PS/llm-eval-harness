@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import argparse
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from .config import load_config
@@ -20,7 +20,7 @@ def main() -> None:
     parser.add_argument("--log-dir", default="results/run_logs", help="where to write the run log")
     args = parser.parse_args()
 
-    started = datetime.now(timezone.utc)
+    started = datetime.now(UTC)
     cfg = load_config(args.config)
     df = run_all(cfg, pred_dir=args.pred_dir)
 

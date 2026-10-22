@@ -5,7 +5,7 @@ import json
 import platform
 import shutil
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from importlib.metadata import PackageNotFoundError, version
 from pathlib import Path
 
@@ -31,7 +31,7 @@ def _cached_revision(hf_id: str) -> str | None:
     """Commit hash of the locally cached copy of a model (offline lookup)."""
     try:
         return Path(snapshot_download(hf_id, local_files_only=True)).name
-    except Exception:
+    except Exception:  # noqa: BLE001 - any lookup failure just means "revision unknown"
         return None
 
 
@@ -48,7 +48,7 @@ def write_run_log(cfg: dict, config_path: str | Path, df: pd.DataFrame,
     log = {
         "run_id": run_id,
         "started_utc": started_at.isoformat(),
-        "finished_utc": datetime.now(timezone.utc).isoformat(),
+        "finished_utc": datetime.now(UTC).isoformat(),
         "command": " ".join(sys.argv),
         "seed": cfg["seed"],
         "config_copy": config_copy.name,

@@ -4,7 +4,7 @@ from __future__ import annotations
 import gc
 import re
 import time
-from typing import Callable, Optional
+from collections.abc import Callable
 
 import torch
 from datasets import Dataset
@@ -18,7 +18,7 @@ NEG = {"negative"}
 NEGATION = {"not", "no", "isn", "never"}
 
 
-def parse_label(raw: str) -> Optional[int]:
+def parse_label(raw: str) -> int | None:
     """Return 1 (positive), 0 (negative), or None (unparseable).
 
     Looks in the first 6 words; a negated label counts as unparseable.
@@ -60,7 +60,7 @@ def run_classification(
     label_key: str = "label",
     detokenize: bool = False,
     max_new_tokens: int = 16,
-    parser: Callable[[str], Optional[int]] = parse_label,
+    parser: Callable[[str], int | None] = parse_label,
 ) -> tuple[list[dict], dict]:
     """Run the model over ds. Returns (rows, stats).
 
