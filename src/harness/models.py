@@ -10,6 +10,7 @@ import torch
 from datasets import Dataset
 from tqdm.auto import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
+
 from .data import clean_text, normalize_arabic
 
 POS = {"positive"}
