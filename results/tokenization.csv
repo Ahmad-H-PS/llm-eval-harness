@@ -1,0 +1,7 @@
+model,task,language,n,tokens_per_text,tokens_per_word,chars_per_token
+qwen2.5-1.5b,en_sentiment,en,200,22.75,1.3,4.61
+qwen2.5-1.5b,ar_sentiment,ar,200,20.72,2.17,2.39
+gemma-3-1b,en_sentiment,en,200,22.58,1.29,4.65
+gemma-3-1b,ar_sentiment,ar,200,17.52,1.83,2.82
+hala-700m,en_sentiment,en,200,23.92,1.37,4.39
+hala-700m,ar_sentiment,ar,200,24.16,2.52,2.05
