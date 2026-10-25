@@ -1,0 +1,42 @@
+seed: 42
+
+models:
+  - name: qwen2.5-1.5b
+    hf_id: Qwen/Qwen2.5-1.5B-Instruct
+  - name: gemma-3-1b
+    hf_id: google/gemma-3-1b-it
+  - name: hala-700m
+    hf_id: hammh0a/Hala-700M
+
+tasks:
+  - name: en_sentiment
+    dataset: stanfordnlp/sst2
+    split: validation
+    n_samples: 200
+    language: en
+    text_key: sentence
+    label_key: label
+    detokenize: true
+    max_new_tokens: 16
+    prompt: "Classify the sentiment of the following text. Answer with exactly one word: positive or negative. Do not add any explanation.\n\nText: {text}\n\nAnswer:"
+    metric: f1
+  - name: en_qa
+    type: qa
+    dataset: rajpurkar/squad
+    split: validation
+    n_samples: 200
+    language: en
+    max_new_tokens: 32
+    prompt: "Answer the question using only the context. Reply with just the answer text (a short span copied from the context). Do not add any explanation.\n\nContext: {context}\n\nQuestion: {question}\n\nAnswer:"
+    metric: f1
+  - name: ar_sentiment
+    dataset: komari6/ajgt_twitter_ar
+    split: train
+    n_samples: 200
+    language: ar
+    text_key: text
+    label_key: label
+    detokenize: false
+    max_new_tokens: 24
+    prompt: "صنّف مشاعر النص التالي. أجب بكلمة واحدة فقط: «إيجابي» أو «سلبي». لا تضف أي شرح.\n\nالنص: {text}\n\nالإجابة:"
+    metric: f1

@@ -5,7 +5,7 @@
  "type": "qa",
  "language": "en",
  "stats": {
-  "latency_s_per_ex": 0.44,
+  "latency_s_per_ex": 0.47,
   "peak_vram_gb": 2.1
  },
  "rows": [

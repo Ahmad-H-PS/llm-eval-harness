@@ -5,7 +5,7 @@
  "type": "classification",
  "language": "en",
  "stats": {
-  "latency_s_per_ex": 0.08,
+  "latency_s_per_ex": 0.09,
   "peak_vram_gb": 3.11
  },
  "rows": [

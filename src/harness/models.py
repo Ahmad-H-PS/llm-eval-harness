@@ -10,12 +10,14 @@ import torch
 from datasets import Dataset
 from tqdm.auto import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
-from .data import clean_text
+from .data import clean_text, normalize_arabic
 
 POS = {"positive"}
 NEG = {"negative"}
 NEGATION = {"not", "no", "isn", "never"}
+AR_POS = {"ايجابي", "ايجابية", "ايجابيه", "positive"}
+AR_NEG = {"سلبي", "سلبية", "سلبيه", "negative"}
+AR_NEGATION = {"غير", "ليس", "ليست", "لا"}
 
 
 def parse_label(raw: str) -> int | None:
@@ -30,6 +32,20 @@ def parse_label(raw: str) -> int | None:
                 return None
             return 1 if w in POS else 0
     return None
+
+def parse_label_ar(raw: str) -> int | None:
+    """Arabic version of parse_label: normalize, look in the first 6 words,
+    negated labels are unparseable. English labels are also accepted."""
+    words = re.findall(r"\w+", normalize_arabic(raw).lower())[:6]
+    for i, w in enumerate(words):
+        if w in AR_POS or w in AR_NEG:
+            if i > 0 and words[i - 1] in AR_NEGATION:
+                return None
+            return 1 if w in AR_POS else 0
+    return None
+
+
+PARSERS = {"en": parse_label, "ar": parse_label_ar}
 
 
 def load_model(hf_id: str, device: str | None = None):
@@ -60,17 +76,19 @@ def run_classification(
     label_key: str = "label",
     detokenize: bool = False,
     max_new_tokens: int = 16,
-    parser: Callable[[str], int | None] = parse_label,
+    language: str = "en",
+    parser: Callable[[str], int | None] | None = None,
 ) -> tuple[list[dict], dict]:
     """Run the model over ds. Returns (rows, stats).
 
     Each row: id, text (cleaned), prompt, gold, raw output, parsed pred.
     stats: latency_s_per_ex and peak_vram_gb (None on CPU).
     """
+    parser = parser or PARSERS.get(language, parse_label)
     rows = []
     start = time.time()
     for i, ex in enumerate(tqdm(ds, total=len(ds))):
-        text = clean_text(ex[text_key], detokenize=detokenize)
+        text = clean_text(ex[text_key], detokenize=detokenize, language=language)
         prompt = template.format(text=text)
         messages = [{"role": "user", "content": prompt}]
         inputs = tok.apply_chat_template(

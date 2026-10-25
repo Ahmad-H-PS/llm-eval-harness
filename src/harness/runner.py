@@ -40,6 +40,7 @@ def run_all(cfg: dict, pred_dir: str = "results/predictions") -> pd.DataFrame:
                         text_key=task["text_key"], label_key=task["label_key"],
                         detokenize=task["detokenize"],
                         max_new_tokens=task["max_new_tokens"],
+                        language=task["language"],
                     )
                 save_predictions(pred_dir, m, task, rows, stats)
                 results.append({
